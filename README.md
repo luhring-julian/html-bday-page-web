@@ -1,4 +1,4 @@
-# [Nome do Projeto]
+# Landing Page Aniversariante
 
 Projeto web de uma landing page, para fins de homenagear um aniversariante. A ideia de criação dessa página veio durante o progresso no curso de HTML e CSS da Alura.
 
@@ -8,7 +8,7 @@ Projeto web de uma landing page, para fins de homenagear um aniversariante. A id
 
 ## 🖥️ Visualize o projeto
 
-[url-do-projeto](url-do-projeto)
+[Visualize o Projeto](https://luhring-julian.github.io/html-bday-page-web/)
 
 ## ️⚙️ Tecnologias Usadas
 
