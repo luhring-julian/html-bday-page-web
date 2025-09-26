@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --fonte-titulo: "Indie Flower", cursive;
+  --fonte-texto: "Roboto", sans-serif;
+
+  --cor-bg: #f5f5f5;
+  --cor-primaria: #4da8da;
+  --cor-secundaria: #80d8c3;
+  --cor-terciaria: #ffd66b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* margin: 0 auto; */
+}
+
+body {
+  background-color: var(--cor-bg);
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--cor-primaria);
+  font-family: var(--fonte-texto);
+  font-size: 1.25rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  padding: 2.5% 0 2.5% 20%;
+  justify-content: flex-start;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: var(--cor-bg);
+  transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: var(--cor-terciaria);
+}
+
+main {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10% auto;
+  max-width: 1280px;
+}
+
+.home__titulo {
+  font-family: var(--fonte-titulo);
+  font-size: 3rem;
+  text-align: center;
+  color: var(--cor-primaria);
+  width: 65%;
+}
+
+.home__img {
+  width: 50%;
+  text-align: center;
+}
+
+.home__img img {
+  width: 80%;
+  border-radius: 10%;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.carta {
+  background-color: var(--cor-primaria);
+  padding: 5% 0;
+}
+
+.carta__conteudo {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.carta__conteudo__titulo {
+  font-family: var(--fonte-titulo);
+  font-size: 2.5rem;
+  color: var(--cor-terciaria);
+  margin: 0 0 2% 0;
+  text-decoration: underline;
+}
+
+.carta__conteudo__texto {
+  font-family: var(--fonte-texto);
+  font-size: 1.1rem;
+  color: #000;
+}
+
+.fotos {
+  padding: 5% 0;
+}
+
+.fotos__titulo {
+  padding: 2.5% 0;
+  font-family: var(--fonte-titulo);
+  color: var(--cor-primaria);
+  font-size: 2.5rem;
+}
+
+.fotos__galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.fotos__galeria img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.footer {
+  background-color: var(--cor-primaria);
+  margin: 0 auto;
+  text-align: center;
+  padding: 3% 0;
+}
+
+.footer__texto {
+  font-family: var(--fonte-texto);
+  color: var(--cor-bg);
+  font-size: 1.1rem;
+}
