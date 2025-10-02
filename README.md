@@ -12,7 +12,7 @@ Projeto web de uma landing page, para fins de homenagear um aniversariante. A id
 
 ## 🖥️ Visualize o projeto
 
-[Visualize o Projeto](https://luhring-julian.github.io/html-bday-page-web/)
+[Visualize o Projeto](https://felizaniversario-lake.vercel.app/)
 
 ## ️⚙️ Tecnologias Usadas
 
